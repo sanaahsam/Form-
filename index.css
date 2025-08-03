@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding-top: 50px;
+  background-color: rgb(55, 132, 241);
+}
+.custom-lable {
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  padding-bottom: 6px;
+  font-weight: bold;
+  color: rgb(55, 132, 241);
+}
+
+form {
+  max-width: 600px;
+  background-color: #f1f1f1;
+  border-radius: 2%;
+  margin: 0 auto;
+
+  padding: 15px;
+}
+
+.custom-btn {
+  width: 160px;
+  cursor: pointer;
+  height: 40px;
+
+  border: 2px solid rgb(55, 132, 241);
+  background-color: transparent;
+  color: rgb(55, 132, 241);
+  font-family: "Lato", sans-serif;
+}
+.custom-btn:hover {
+  background-color: rgb(55, 132, 241);
+  color: rgb(255, 255, 255);
+  font-family: "Lato", sans-serif;
+}
+.custom-input {
+  border: none;
+  height: 40px;
+  background-color: #ede6e6;
+  padding-left: 3px;
+  margin-bottom: 5px;
+}
+.formSubcontainer {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  flex-direction: row;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.betweengap {
+  margin-right: 30px;
+}
+.errormsg {
+  color: red;
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  font-size: 1rem;
+  margin-top: 10px;
+  padding: 0;
+}
+
+@media (max-width: 600px) {
+  body {
+    height: 500px;
+    display: flex;
+    padding-top: 0;
+
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  form {
+    width: 100%;
+    height: 100vh;
+    padding-top: 40px;
+    border-radius: 0;
+    background-color: rgb(55, 132, 241);
+    display: flex;
+
+    flex-direction: column;
+  }
+  .groupControl {
+    display: flex;
+
+    flex-direction: column;
+
+    margin-right: 0;
+  }
+
+  .formSubcontainer {
+    display: flex;
+    margin-right: 0px;
+    height: 250px;
+    margin-bottom: 30px;
+    flex-direction: column;
+
+    align-items: center;
+  }
+  .custom-lable {
+    font-size: 2rem;
+    color: white;
+  }
+  .groupContro input {
+    height: 60px;
+
+    background-color: #8c8b8b;
+    padding-left: 3px;
+  }
+  .errormsg {
+    color: red;
+    font-family: "Lato", sans-serif;
+    font-size: 1.5rem;
+    margin-top: 1px;
+    margin-bottom: 0;
+  }
+  .empname {
+    margin-top: 10px;
+  }
+  .betweengap {
+    margin-right: 0;
+  }
+  .btn-container {
+    margin-top: 25px;
+    height: 100px;
+    align-items: center;
+  }
+  .custom-btn {
+    width: 120px;
+    cursor: pointer;
+    height: 50px;
+
+    border: 2px solid rgb(249, 249, 249);
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    font-family: "Lato", sans-serif;
+    font-size: 1.5rem;
+    font-weight: bolder;
+  }
+  .custom-btn:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(55, 132, 241);
+    font-family: "Lato", sans-serif;
+  }
+}
